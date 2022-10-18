@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Section 1: Getting Started</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>There's a diffence between HTML and CSS</h1>
+    <h3>HTML</h3>
+    <dd>HTML is used for content structure and semantic meaning</dd>
+    <h3>CSS</h3>
+    <dd>CSS is used for styling and changing apperances of the webpages elements</dd>
+    <br>
+    <p>The <b>devs tool</b> within a browser can be used to see your HTML and CSS code. This can be 
+    applied to most websites including your own.</p>
+    <h2>Referencing CSS</h2>
+    <p>There's three different methods to do this:</p>
+    <ol>
+        <li>External</li>
+        <br>
+        <li>Inline</li>
+        <br>
+        <li>Internal</li>
+    </ol>
+    <h3>External</h3>
+    <p>A separate CSS file an be made and saved with a CSS extension. It can be loaded
+        with either a <i>link tag</i> within the HTML or the <i>@import method</i>.
+    </p>
+    <h4>Link Tag</h4>
+    <!--The link tag is a void element so it doesn't need a closing tag-->
+    <p>The link tag is always referenced within the head of the HTML using the two attributes
+        <em>rel</em> and <em>href</em>. External CSS files can be linked to other HTML files.
+    </p>
+<h4>@import method</h4>
+    <p>This method can import one or more stylesheets into the HTML or CSS. The downside to using 
+        is that it could slow down your page. Commonly used with <i>SASS</i> and <i>LESS</i> processors.
+    </p>
+
+    <h3>Inline</h3>
+    <p>Uses a style attribute which is added onto the an opening HTML tag. CSS style rules are added
+        as a value. Use sparringly because it can overwrite any othe method. Applies to individual elements.
+    </p>
+
+    <h3>Internal</h3>
+    <p>CSS is added between style tags in the head of the document. <i>CSS selectors</i> are added to
+    stylize each element it matches. Best use for short blocks applied to one page.</p>
+
+    <h3>Relative & Absolute paths</h3>
+    <p><strong>REMEMBER NOT TO HOTLINK YOUR PATHS!</strong></p>
+    <h4>Relative path</h4>
+        <p>A relative file path points to a file relative to the current page. Use for referencing 
+            resources <i>within your own project files</i>
+        </p>
+    <h4>Absolute path</h4>
+        <p>An absolute file path is the full URL to a file. Use absolute paths for <i>outside sources</i></p>
+</body>
+</html>
