@@ -1,1 +1,17 @@
 /*test link with colored background*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*background colors*/
+.container {
+    width:100%;
+    height:100vh;
+    background-color: paleturquoise;
+}
+img {
+    width: auto;
+    height: auto;
+    
+}
