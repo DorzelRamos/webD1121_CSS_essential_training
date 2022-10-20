@@ -5,8 +5,89 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Section 2: Core Concepts</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    
+    <div class="intro">
+        <h1>The W3C and CSS standards</h1>
+        <p>The <em>World Wide Web Consortium</em>, otherwise known as the W3C has developed web standards
+         and guidelines including for CSS.</p>
+    </div>
+    <div class="part1">
+         <h2>CSS</h2>
+         <p>Also known as <em>Cascading Style Sheets</em>.</p>
+         <h3>Syntax & Terminology</h3>
+    </div>
+    <div class="part1List">
+         <ul>
+            <li><b>Selectors</b></li>
+            <dd><i>Targets used to apply styling to</i></dd>
+            <li><b>Decleration block</b></li>
+            <dd><i>Style rules contained within curly braces for specific selector</i></dd>
+            <li><b>Decleration</b></li>
+            <dd><i>Rules to the selector which uses a property value pair seperated
+                with a colon and ands with a semicolon
+            </i></dd>
+            <li><b>Property</b></li>
+            <dd><i>Goes on the left of colon</i></dd>
+            <li><b>Value</b></li>
+            <dd><i>Goes on the right of colon</i></dd>
+            <li><b>Longhand</b></li>
+            <dd><i>The long way of writing CSS</i></dd>
+            <li><b>Value</b></li>
+            <dd><i>The short way of writing CSS by putting attributes on one decleration block</i></dd>
+            <li><b>Comments</b></li>
+            <dd><i>Comments can be used by using a forward slash, asterix, then the same thing but in reverse</i></dd>
+            <li><b>Whitespace</b></li>
+            <dd><i>Writing declerations doesn't require spaces, but use them for readability and organization</i></dd>
+         </ul>
+    </div>
+<div class="valUnits">
+    <h2>Values and Units</h2>
+</div>
+    <ul>
+        <li><b>Numeric Values</b></li>
+        <dd><i>Used to specify datatypse that can be measured with numbers</i></dd>
+        <li><b>Absolute Values</b></li>
+        <dd>Datatypes that are always the same size. Will not change regardless of what you do</dd>
+        <li><b>Relational Values</b></li>
+        <dd>Values declared in parents or ancestor elements</dd>
+        <li><b>Unitless Values</b></li>
+        <dd>Values that don't require numbers, but words. Zeros, etc.</dd>
+        <li><b>CSS Function Values</b></li>
+        <dd>Functions that are set as property values. You can write one by putting a function name
+            followed by paranthesis
+        </dd>
+        <li><b>Initial Values</b></li>
+        <dd>Default style </dd>
+    </ul>
+<h2>Colors and property values</h2>
+<p>There's two types of keywords for colors: <b>basic</b> and <b>extended</b>. </p>
+<dt><b>Basic keywords</b></dt>
+    <dd><i>These are your simple colors like red, blue, green, etc.</i></dd>
+<dt><b>Extended keywords</b></dt>
+    <dd><i>These colors are more specific such as palegoldenrod, aliceblue, oldace, etc.</i></dd>
+<dt><b>RGB</b></dt>
+    <dd>Defines colors through red, green, and blue components</dd>
+<dt><b>Hexadecimal</b></dt>
+    <dd>A prefixed with a numbersign (#) and followed by six characters (0-9 and A-F)</dd>
+<dt><b>Hexadecimal</b></dt>
+    <dd>A prefixed with a numbersign (#) and followed by six characters (0-9 and A-F).
+        Hex can be shorthanded
+    </dd>
+    <dt><b>rgb() or rgba()</b></dt>
+    <dd>Basically rgb but you can add a fourth <i>alpha channel</i> to it</dd>
+    <dt><b>HSL, hsl() or hsla()</b></dt>
+    <dd>HSL stands for <b>Hue, Saturation, and Lightness</b></dd>
+<h2>Types and Universal selectors</h2>
+<dt><b>Type seletors</b></dt>
+<dd>Basic selectors with matching patterns</dd>
+<dt><b>Universal selectors</b></dt>
+<dd>Matches to all elements of any type in the document</dd>
+<h2>Class and ID selectors</h2>
+<dt>Class selector</dt>
+<dd>Class selectors are defined by you and is followed a period (.classSelectorName). These
+    can be added to HTML elements and can be reused because it only matches to the selector name.
+</dd>
 </body>
 </html>
