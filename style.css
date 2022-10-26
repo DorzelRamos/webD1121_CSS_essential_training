@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 /*background colors*/
-.container {
+.container1 {
     width:100%;
     height:auto;
     background-color: paleturquoise;
@@ -17,6 +17,9 @@ img {
 }
 dt {
     padding: 30px 20px 10px;
+    margin: auto;
+    box-sizing: border-box;
+
 }
 dd {
     padding: 10px;
