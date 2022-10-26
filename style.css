@@ -10,21 +10,44 @@
     height:auto;
     background-color: paleturquoise;
 }
-img {
+.img {
     width: auto;
     height: auto;
 
 }
-dt {
+.dt {
     padding: 30px 20px 10px;
     margin: auto;
     box-sizing: border-box;
 
 }
-dd {
+.dd {
     padding: 10px;
 }
-li {
+.li {
     padding: 10px;
     margin: 3px;
+}
+
+.intro {
+    padding: 1em;
+    margin: 1em;
+    background-color: palegreen;
+    border: dashed;
+    color: orange;
+
+}
+
+.part1 {
+    padding: 1em;
+    margin: 1em;
+    background-color: skyblue;
+    color: black;
+}
+
+.cssdef {
+    padding: 1em;
+    margin: 1em;
+    background-color: skyblue;
+    color: black;
 }
