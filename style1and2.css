@@ -1,0 +1,53 @@
+/*test link with colored background*/
+/*background colors*/
+
+.container1 {
+    width:100%;
+    height: auto;
+    background-color: skyblue;
+}
+.img {
+    width: auto;
+    height: auto;
+
+}
+
+.intro {
+    padding: 1em;
+    margin: 1em;
+    background-color: skyblue;
+    border: dashed;
+    color: black;
+
+}
+
+.cssdef {
+    padding: 1em;
+    margin: 1em;
+    background-color: skyblue;
+
+}
+
+.synter {
+    padding: 1em;
+    margin: 1em;
+    background-color: skyblue;
+}
+
+.syntaxList {
+    padding: 5px;
+    margin: 5px;
+    background-color: skyblue;
+    
+}
+.valUnits {
+    padding: 10px;
+    margin: 10px;
+    background-color: skyblue;
+}
+
+.valuniList {
+    padding: 30px;
+    margin: 10px;
+    background-color: skyblue;
+}
