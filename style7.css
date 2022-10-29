@@ -7,11 +7,11 @@ section p {
 }
 
 h1 > p {
-/*    color: blue; */
+    color: blue; 
 }
 
 h1 + p {
-/*    color: green;*/
+    color: green;
 }
 
 h1 ~ p {
