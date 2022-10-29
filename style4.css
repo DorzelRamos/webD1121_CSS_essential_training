@@ -1,0 +1,130 @@
+/*commit stuff here */
+
+
+
+
+.typoTitle {
+    text-align: center;
+}
+
+.typoPara {
+    font-size: x-large;
+    text-align: center;
+}
+
+.typef {
+    text-align: center;
+    font-size: larger;
+}
+
+.Scripts {
+    text-align: center;
+    margin: 200px;
+    padding: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    display: inline-block;
+
+}
+
+.Decor {
+    margin: 50px;
+    padding: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: larger;
+     display: inline-block;
+
+
+
+}
+
+.Mono {
+    margin: 50px;
+    padding: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    display: inline-block;
+
+}
+
+.Ser {
+    margin: 50px;
+    padding: 50px;
+    font-family: serif;
+    font-size: larger;
+    display: inline-block;
+
+}
+
+.San {
+    margin: 50px;
+    padding: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    display: inline-block;
+
+}
+
+.fontWeight {
+    text-align: center;
+    font-size: xx-large;
+    border: solid;
+
+}
+
+.light {
+    text-align: center;
+    font-size: x-large;
+    font-weight: 100;
+}
+.regular {
+    text-align: center;
+    font-size: x-large;
+    font-weight: 400;
+}
+.semi {
+    text-align: center;
+    font-size: x-large;
+    font-weight: 600;
+}
+.bold {
+    text-align: center;
+    font-size: x-large;
+    font-weight: 700;
+}
+.extra {
+    text-align: center;
+    font-size: x-large;
+    font-weight: 900;
+}
+
+.fontStyle {
+    text-align: center;
+    border: dashed;
+}
+.itac {
+    text-align: center;
+    font-size: larger;
+    font-style: italic;
+}
+.ob {
+    text-align: center;
+    font-size: larger;
+    font-style: oblique;
+}
+.norm {
+    text-align: center;
+    font-size: larger;
+    font-style: normal;
+}
+
+.googleF {
+    border-style: dotted;
+    text-align: center;
+}
+
+.acme {
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+    font-size: larger;
+}
